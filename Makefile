@@ -8,4 +8,4 @@ main: $(OBJS)
 	$(CXX) $(CXXFLAGS) $(OBJS) -o main
 
 clean:
-	rm -f $(OBJS) main
+	rm -f $(OBJS) main.o

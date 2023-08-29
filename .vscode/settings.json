@@ -1,0 +1,14 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/workspaces/Week3",
+            "binaryPath": "/workspaces/Week3/main.o",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/workspaces/Week3",
+            "binaryPath": "/workspaces/Week3/main",
+            "binaryArgs": []
+        }
+    ]
+}

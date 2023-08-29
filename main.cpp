@@ -30,39 +30,39 @@ int main() {
     switch(choice){
       case(1):
         cout<<"\nInitialization\n\n";
-        system("cd init && g++ -s init.cpp -o init && ./init && cd ~");
+        system("cd init && make -s init && ./init && rm init && cd ~");
         break;
       case(2):
         cout<<"\nElement Access\n\n";
-        system("cd access && make -s access && ./access && cd ~");
+        system("cd access && make -s access && ./access && rm access && cd ~");
         break;
       case(3):
         cout<<"\nChanging Elements\n\n";
-        system("cd access && make -s change && ./change && cd ~");
+        system("cd access && make -s change && ./change && rm change && cd ~");
         break;
       case(4):
         cout<<"\nCopying\n\n";
-        system("cd functions && make -s copy && ./copy && cd ~");
+        system("cd functions && make -s copy && ./copy && rm copy && cd ~");
         break;
       case(5):
         cout<<"\nIterators 1\n\n";
-        system("cd functions && make -s iter && ./iter && cd ~");
+        system("cd functions && make -s iter && ./iter && rm iter && cd ~");
         break;
       case(6):
         cout<<"\nIterators 2\n\n";
-        system("cd functions && make -s iter2 && ./iter2 && cd ~");
+        system("cd functions && make -s iter2 && ./iter2 && rm iter2 && cd ~");
         break;
       case(7):
         cout<<"\nPop\n\n";
-        system("cd functions && make -s pop && ./pop && cd ~");
+        system("cd functions && make -s pop && ./pop && rm pop && cd ~");
         break;
       case(8):
         cout<<"\nPush\n\n";
-        system("cd functions && make -s push && ./push && cd ~");
+        system("cd functions && make -s push && ./push && rm push && cd ~");
         break;
       case(9):
         cout<<"\nResize\n\n";
-        system("cd functions && make -s resize && ./resize && cd ~");
+        system("cd functions && make -s resize && ./resize && rm resize && cd ~");
         break;
       case(99):
         exit(0);
