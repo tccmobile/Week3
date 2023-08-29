@@ -30,7 +30,7 @@ int main() {
     switch(choice){
       case(1):
         cout<<"\nInitialization\n\n";
-        system("cd init && make -s init && ./init && cd ~");
+        system("cd init && g++ -s init.cpp -o init && ./init && cd ~");
         break;
       case(2):
         cout<<"\nElement Access\n\n";
